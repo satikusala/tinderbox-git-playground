@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<tinderbox version="2" revision="15" savedBy="version 11.5.2 b771" uuid="98A6CB2F-9781-4509-A3CA-0BAAEBE77DE5" >
+<tinderbox version="2" revision="15" savedBy="version 11.5.3 b775" uuid="98A6CB2F-9781-4509-A3CA-0BAAEBE77DE5" >
 <attrib Name="anything" editable="0" visibleInEditor="1" lines="1" default="" >
 <attrib Name="System" parent="anything" editable="0" visibleInEditor="1" lines="1" default="" >
 <attrib Name="AI" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
@@ -210,6 +210,12 @@
 <attrib Name="Name" parent="General" editable="1" visibleInEditor="1" lines="1" canInherit="0" default="untitled" >
 </attrib>
 <attrib Name="OnAdd" parent="General" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+</attrib>
+<attrib Name="OnMouseDown" parent="General" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+</attrib>
+<attrib Name="OnMouseDrag" parent="General" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
+</attrib>
+<attrib Name="OnMouseUp" parent="General" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
 </attrib>
 <attrib Name="OnPaste" parent="General" editable="1" visibleInEditor="1" lines="1" type="7" default="" >
 </attrib>
@@ -1026,19 +1032,19 @@
 <linkType name="update" visible="1" showLabel="1" required="0" colorString="#000000" style="0" arrowType="0" >
 </linkType>
 </linkTypes>
-<item ID="1771294588" Creator="Win Treese" >
-<attribute name="Created" >2026-02-14T13:22:42-05:00</attribute>
+<item ID="1771376551" Creator="Win Treese" >
+<attribute name="Created" >2026-02-14T13:22:42-08:00</attribute>
 <attribute name="MapScrollX" >0</attribute>
 <attribute name="MapScrollY" >0</attribute>
-<attribute name="Modified" >2026-02-14T13:22:42-05:00</attribute>
+<attribute name="Modified" >2026-02-14T13:22:42-08:00</attribute>
 <attribute name="Name" >tinderbox-git-playground</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1771093364" Creator="Win Treese" >
 <attribute name="Associates" ></attribute>
-<attribute name="Created" >2026-02-14T13:22:43-05:00</attribute>
+<attribute name="Created" >2026-02-14T13:22:43-08:00</attribute>
 <attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2026-02-14T13:22:43-05:00</attribute>
+<attribute name="Modified" >2026-02-14T13:22:43-08:00</attribute>
 <attribute name="Name" >This is a new note.</attribute>
 <attribute name="ScreenHeight" >80</attribute>
 <attribute name="ScreenWidth" >128</attribute>
@@ -1046,10 +1052,17 @@
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
+<item ID="1771376557" Creator="Win Treese" >
+<attribute name="Created" >2026-02-17T11:57:06-08:00</attribute>
+<attribute name="Modified" >2026-02-17T11:57:06-08:00</attribute>
+<attribute name="Name" >Hi Win, this   Becker 17FEB26</attribute>
+<attribute name="Xpos" >18</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
 <item ID="1771286917" Creator="Win Treese" >
-<attribute name="Created" >2026-02-16T19:08:36-05:00</attribute>
+<attribute name="Created" >2026-02-16T19:08:36-08:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-02-16T19:08:54-05:00</attribute>
+<attribute name="Modified" >2026-02-16T19:08:54-08:00</attribute>
 <attribute name="Name" >This is another note so we can see the diffs</attribute>
 <attribute name="SelectionCount" >2</attribute>
 <attribute name="Sentiment" >-0.6000000089</attribute>
@@ -1061,21 +1074,35 @@
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5aAQAAKwAAAAEAAABSAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY3Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjgwXHNhODBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBUaGlzIG5vdGUgaGFzIHNvbWUgdGV4dCBpbiBpdC5cCn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAACWsZNptgEAAAAAAAAAAAAA</rtfd>
 </item>
 <item ID="1771287464" Creator="Win Treese" >
-<attribute name="Created" >2026-02-16T19:17:43-05:00</attribute>
-<attribute name="Modified" >2026-02-16T19:17:43-05:00</attribute>
+<attribute name="Created" >2026-02-16T19:17:43-08:00</attribute>
+<attribute name="Modified" >2026-02-16T19:17:43-08:00</attribute>
 <attribute name="Name" >This note was added with Tinderbox 11.5.2</attribute>
 <attribute name="Xpos" >9</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1771294600" Creator="Win Treese" >
-<attribute name="Created" >2026-02-16T21:16:39-05:00</attribute>
-<attribute name="Modified" >2026-02-16T21:16:39-05:00</attribute>
+<attribute name="Created" >2026-02-16T21:16:39-08:00</attribute>
+<attribute name="DisplayedAttributes" >OnAdd</attribute>
+<attribute name="Modified" >2026-02-16T21:16:39-08:00</attribute>
 <attribute name="Name" >Changelog</attribute>
+<attribute name="OnAdd" >$Name=date(now).format(&quot;y-m-d t&quot;)+&quot;: &quot;+YourInitials++&quot;_&quot;+&quot;YourChangeTitle&quot;</attribute>
 <attribute name="Xpos" >13.5</attribute>
 <attribute name="Ypos" >0</attribute>
+<item ID="1771376565" Creator="Win Treese" >
+<attribute name="Created" >2026-02-17T12:01:11-08:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Modified" >2026-02-17T12:01:17-08:00</attribute>
+<attribute name="Name" >2026-2-17 12:01 PM: MJB_FirstUpdates</attribute>
+<attribute name="Sentiment" >-0.5000000149</attribute>
+<attribute name="Sentiments" >-0.6;-0.4</attribute>
+<attribute name="Xpos" >36</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Added Changlog on ad. Added Hi Win hello note.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5oAQAAKwAAAAEAAABgAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY3Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjgwXHNhODBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBBZGRlZCBDaGFuZ2xvZyBvbiBhZC4gQWRkZWQgSGkgV2luIGhlbGxvIG5vdGUufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAA3JlGm2AQAAAAAAAAAAAAA=</rtfd>
+</item>
 <item ID="1771294608" Creator="Win Treese" >
-<attribute name="Created" >2026-02-16T21:16:47-05:00</attribute>
-<attribute name="Modified" >2026-02-16T21:16:47-05:00</attribute>
+<attribute name="Created" >2026-02-16T21:16:47-08:00</attribute>
+<attribute name="Modified" >2026-02-16T21:16:47-08:00</attribute>
 <attribute name="Name" >2026-02-16: Added a Changelog container</attribute>
 <attribute name="Xpos" >18</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -1165,7 +1192,7 @@
 <WarnEditingDefault > 1</WarnEditingDefault>
 <WarnDuplicateName > 1</WarnDuplicateName>
 <RunScriptsAutomatically > 1</RunScriptsAutomatically>
-<Version > version 11.5.2</Version>
+<Version > version 11.5.3</Version>
 <PreferencePane > 0</PreferencePane>
 <LastBadgeFamily > 1</LastBadgeFamily>
 <TipWindowX > 300</TipWindowX>
@@ -1203,8 +1230,8 @@
 <FindWindowY > 100</FindWindowY>
 <RenameWindowX > -1</RenameWindowX>
 <RenameWindowY > -1</RenameWindowY>
-<InspectorX > 0</InspectorX>
-<InspectorY > 0</InspectorY>
+<InspectorX > 148</InspectorX>
+<InspectorY > 52</InspectorY>
 <EnterKeyAction > 0</EnterKeyAction>
 <UpdateViewShown > </UpdateViewShown>
 <TimelineScale > 1000</TimelineScale>
@@ -1251,10 +1278,10 @@
 <LastNewsItem > The Tinderbox Way.html</LastNewsItem>
 </preferences>
 <windows >
-<window bounds="Rect[ 79 310 1232 935]" ruler="0" toolbar="0" >
+<window bounds="Rect[ 2981 299 4282 1023]" ruler="0" toolbar="0" >
 <tabs >
-<tab selected="0" name="" subtitle="" viewType="0" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1771294588" scrollX="379.5" scrollY="337" mapscrollX="379.5" mapscrollY="337" selection="" expanded="" textTab="0" splitRatio="0.594241" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1771294579" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1771294579" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
-<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1771294588" scrollX="287.25" scrollY="108.1" mapscrollX="287.25" mapscrollY="64.5001" selection="" expanded="" textTab="0" splitRatio="0.5" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1771294579" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1771294579" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
+<tab selected="0" name="" subtitle="" viewType="0" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1771376551" scrollX="379.5" scrollY="337" mapscrollX="379.5" mapscrollY="337" selection="" expanded="" textTab="0" splitRatio="0.594241" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1771297769" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1771297769" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
+<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1771376551" scrollX="285.5" scrollY="129.9" mapscrollX="287.25" mapscrollY="108.1" selection="" expanded="1771294600 " textTab="0" splitRatio="0.558211" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1771297769" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1771297769" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
 </tabs>
 </window>
 </windows>
