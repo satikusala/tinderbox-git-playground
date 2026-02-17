@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<tinderbox version="2" revision="15" savedBy="version 11.5.0 b759" uuid="98A6CB2F-9781-4509-A3CA-0BAAEBE77DE5" >
+<tinderbox version="2" revision="15" savedBy="version 11.5.2 b771" uuid="98A6CB2F-9781-4509-A3CA-0BAAEBE77DE5" >
 <attrib Name="anything" editable="0" visibleInEditor="1" lines="1" default="" >
 <attrib Name="System" parent="anything" editable="0" visibleInEditor="1" lines="1" default="" >
 <attrib Name="AI" parent="System" editable="0" visibleInEditor="1" lines="1" default="" >
@@ -161,7 +161,7 @@
 </attrib>
 <attrib Name="CreatedFrom" parent="General" editable="1" visibleInEditor="1" lines="1" canInherit="0" default="" >
 </attrib>
-<attrib Name="Creator" parent="General" editable="0" visibleInEditor="1" lines="1" kind="1" default="Win Treese" >
+<attrib Name="Creator" parent="General" editable="0" visibleInEditor="1" lines="1" kind="1" canInherit="0" default="Win Treese" >
 </attrib>
 <attrib Name="DescendantCount" parent="General" editable="0" visibleInEditor="1" lines="1" type="2" default="0" >
 </attrib>
@@ -261,7 +261,7 @@
 </attrib>
 <attrib Name="GridLabels" parent="Grid" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
 </attrib>
-<attrib Name="GridOpacity" parent="Grid" editable="1" visibleInEditor="1" lines="1" type="2" default="75" >
+<attrib Name="GridOpacity" parent="Grid" editable="1" visibleInEditor="1" lines="1" type="2" default="0.75" >
 </attrib>
 <attrib Name="GridRows" parent="Grid" editable="1" visibleInEditor="1" lines="1" type="2" default="0" >
 </attrib>
@@ -909,7 +909,7 @@
 </attrib>
 <attrib Name="TextCheckboxes" parent="Textual" editable="1" visibleInEditor="1" lines="1" type="10" default="" >
 </attrib>
-<attrib Name="TextExportTemplate" parent="Textual" editable="1" visibleInEditor="1" lines="1" default="" >
+<attrib Name="TextExportTemplate" parent="Textual" editable="1" visibleInEditor="1" lines="1" default="outline" >
 </attrib>
 <attrib Name="TextLength" parent="Textual" editable="0" visibleInEditor="1" lines="1" type="2" default="0" >
 </attrib>
@@ -1026,10 +1026,10 @@
 <linkType name="update" visible="1" showLabel="1" required="0" colorString="#000000" style="0" arrowType="0" >
 </linkType>
 </linkTypes>
-<item ID="1771093363" Creator="Win Treese" >
+<item ID="1771287381" Creator="Win Treese" >
 <attribute name="Created" >2026-02-14T13:22:42-05:00</attribute>
-<attribute name="MapScrollX" >0.234375</attribute>
-<attribute name="MapScrollY" >-1.5</attribute>
+<attribute name="MapScrollX" >0</attribute>
+<attribute name="MapScrollY" >0</attribute>
 <attribute name="Modified" >2026-02-14T13:22:42-05:00</attribute>
 <attribute name="Name" >tinderbox-git-playground</attribute>
 <attribute name="Xpos" >0</attribute>
@@ -1042,7 +1042,29 @@
 <attribute name="Name" >This is a new note.</attribute>
 <attribute name="ScreenHeight" >80</attribute>
 <attribute name="ScreenWidth" >128</attribute>
+<attribute name="SelectionCount" >3</attribute>
 <attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1771286917" Creator="Win Treese" >
+<attribute name="Created" >2026-02-16T19:08:36-05:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Modified" >2026-02-16T19:08:54-05:00</attribute>
+<attribute name="Name" >This is another note so we can see the diffs</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Sentiment" >-0.6000000089</attribute>
+<attribute name="Sentiments" >-0.8;-0.4</attribute>
+<attribute name="Xpos" >4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >This note has some text in it.
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5aAQAAKwAAAAEAAABSAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY3Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjgwXHNhODBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBUaGlzIG5vdGUgaGFzIHNvbWUgdGV4dCBpbiBpdC5cCn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAACWsZNptgEAAAAAAAAAAAAA</rtfd>
+</item>
+<item ID="1771287464" Creator="Win Treese" >
+<attribute name="Created" >2026-02-16T19:17:43-05:00</attribute>
+<attribute name="Modified" >2026-02-16T19:17:43-05:00</attribute>
+<attribute name="Name" >This note was added with Tinderbox 11.5.2</attribute>
+<attribute name="Xpos" >9</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 </item>
@@ -1129,7 +1151,7 @@
 <WarnEditingDefault > 1</WarnEditingDefault>
 <WarnDuplicateName > 1</WarnDuplicateName>
 <RunScriptsAutomatically > 1</RunScriptsAutomatically>
-<Version > version 11.5.0</Version>
+<Version > version 11.5.2</Version>
 <PreferencePane > 0</PreferencePane>
 <LastBadgeFamily > 1</LastBadgeFamily>
 <TipWindowX > 300</TipWindowX>
@@ -1179,7 +1201,6 @@
 <LastLinkName > *untitled</LastLinkName>
 <UsingGuides > 1</UsingGuides>
 <TextColorString > black</TextColorString>
-<TextBackgroundColorString > white</TextBackgroundColorString>
 <SystemAttributesCategory > </SystemAttributesCategory>
 <SystemAttributesSelection > </SystemAttributesSelection>
 <CheckMail > 0</CheckMail>
@@ -1216,10 +1237,10 @@
 <LastNewsItem > The Tinderbox Way.html</LastNewsItem>
 </preferences>
 <windows >
-<window bounds="Rect[ 79 21 979 621]" ruler="0" toolbar="0" >
+<window bounds="Rect[ 79 310 1232 935]" ruler="0" toolbar="0" >
 <tabs >
-<tab selected="1" name="" subtitle="" viewType="0" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1771093363" scrollX="231.5" scrollY="223" mapscrollX="0" mapscrollY="0" selection="1771093364 " expanded="" textTab="0" splitRatio="0.5" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1771093352" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1771093352" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
-<tab selected="0" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1771093363" scrollX="0" scrollY="0" mapscrollX="0" mapscrollY="0" selection="" expanded="" textTab="0" splitRatio="0.5" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1771093352" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1771093352" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
+<tab selected="0" name="" subtitle="" viewType="0" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1771287381" scrollX="379.5" scrollY="337" mapscrollX="379.5" mapscrollY="337" selection="" expanded="" textTab="0" splitRatio="0.594241" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1771287365" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1771287365" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
+<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1771287381" scrollX="287.25" scrollY="64.5001" mapscrollX="0" mapscrollY="0" selection="" expanded="" textTab="0" splitRatio="0.5" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1771287365" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1771287365" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
 </tabs>
 </window>
 </windows>
